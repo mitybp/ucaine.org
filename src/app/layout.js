@@ -26,19 +26,19 @@ export default function RootLayout({ children }) {
               <details className="mobile_menu">
                 <summary className="mobile_menu_summary"></summary>
                 <div className="items">
-                  <a href="/ba" className="btn">Sobre</a>
-                  <a href="/contat" className="btn">Contato</a>
-                  <a href="/be-ucaino" className="btn">Cidadania</a>
-                  <a href="/neis" className="btn">Notícias</a>
+                  <a href="/ba">Sobre</a>
+                  <a href="/contat">Contato</a>
+                  <a href="/be-ucaino">Cidadania</a>
+                  <a href="/neis">Notícias</a>
                   <details>
                     <summary>Governo</summary>
                     <div className="items inside">
-                      <a href="/minists" className="btn">Ministérios</a>
-                      <a href="/pobas" className="btn">Poderes</a>
-                      <a href="/gov-recoje" className="btn">Registro Governamental</a>
-                      <a href="/me" className="btn">ME.UC</a>
-                      <a href="/voedje" className="btn">Educação</a>
-                      <a href="/scot" className="btn">Grupo Escoteiro</a>
+                      <a href="/minists">Ministérios</a>
+                      <a href="/pobas">Poderes</a>
+                      <a href="/gov-recoje">Registro Governamental</a>
+                      <a href="/me">ME.UC</a>
+                      <a href="/voedje">Educação</a>
+                      <a href="/scot">Grupo Escoteiro</a>
                     </div>
                   </details>
                   <a href="/doere" className="btn active">Doe</a>
@@ -46,19 +46,19 @@ export default function RootLayout({ children }) {
               </details>
             </div>
             <div className="desktop">
-              <a href="/ba" className="btn">Sobre</a>
-              <a href="/contat" className="btn">Contato</a>
-              <a href="/be-ucaino" className="btn">Cidadania</a>
-              <a href="/neis" className="btn">Notícias</a>
+              <a href="/ba">Sobre</a>
+              <a href="/contat">Contato</a>
+              <a href="/be-ucaino">Cidadania</a>
+              <a href="/neis">Notícias</a>
               <details>
                 <summary>Governo</summary>
                 <div className="items">
-                  <a href="/minists" className="btn">Ministérios</a>
-                  <a href="/pobas" className="btn">Poderes</a>
-                  <a href="/gov-recoje" className="btn">Registro Governamental</a>
-                  <a href="/me" className="btn">ME.UC</a>
-                  <a href="/voedje" className="btn">Educação</a>
-                  <a href="/scot" className="btn">Grupo Escoteiro</a>
+                  <a href="/minists">Ministérios</a>
+                  <a href="/pobas">Poderes</a>
+                  <a href="/gov-recoje">Registro Governamental</a>
+                  <a href="/me">ME.UC</a>
+                  <a href="/voedje">Educação</a>
+                  <a href="/scot">Grupo Escoteiro</a>
                 </div>
               </details>
               <a href="/doere" className="btn active">Doe</a>
